@@ -17,17 +17,45 @@
         <a href="#join">Join</a>
     </nav>
     <main>
+
+        <!-- Section 1 -->
         <section id="about" class="box">
             <h2>Stay active. Stay motivated. Stay fit.</h2>
             <p>Kickball Club is a fun and welcoming place where people come together to stay active, make new friends, and enjoy friendly competition. Whether you're new to the game or a seasoned player, everyone is welcome. Join us for great teamwork, lots of laughs, and a chance to be part of a positive and supportive community.</p>
         </section>
+
+        <!-- Section 2 -->
         <section id="schedule" class="box">
             <h2>Flexible Fun</h2>
-            <p>Our games are held every Saturday, 10:00 AM sharp at Audubon Zoo's batture or better known as "The Fly". We also have practice sessions on Wednesday evenings at 6:00 PM. Check our schedule section for any updates or changes.</p>
+            <p>Our games are held two Saturdays out of the month, 10:00 AM sharp at Audubon Zoo's batture or better known as "The Fly". We also have practice sessions on Wednesday evenings at 6:00 PM. Check our schedule section for any updates or changes.</p>
         </section>
+
+        <!-- Section 3 -->
         <section id="join" class="box">
             <h2>Become a part of the Kickball Club</h2>
             <p>If you're interested in joining the Kickball Club, please fill out our online registration below. We welcome players of all skill levels and backgrounds. Come be a part of our community and enjoy the fun!</p>
+
+            <!-- Sign up form -->
+             <form>
+              <label for="name">Your Name: </label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+              <label for="email">Your Email: </label>
+              <input type="email" name="email" id="email" placeholder="you@example.com" required>
+              
+              <label for="game days">Which games days work best for you?</label>
+              <select id="game days" name="game days">
+                <option value="">Choose Two Saturdays</option>
+                <option value="first">First and Second Saturday</option>
+                <option value="second">Every other Saturday</option>
+                <option value="third">Third and Fourth Saturday</option>
+              </select>
+
+              <label for="message">Anything we should know?</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+              
+              <button type="submit">Sign Up</button>
+            </form>
         </section>
     </main>
         <footer>
