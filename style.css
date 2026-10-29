@@ -16,3 +16,11 @@ h2 {
     color: midnightblue;
 }
 
+.box {
+    margin: 40px 0;
+    border: 3px dashed red;
+    padding: 60px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
