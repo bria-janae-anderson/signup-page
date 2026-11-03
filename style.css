@@ -1,3 +1,5 @@
+<!--Box-sizing is Part 4 -->
+
 * {
   box-sizing: border-box;
 }
@@ -47,4 +49,17 @@ button {
   margin-top: 16px;
   padding: 10px 20px;
   font: inherit;
+}
+
+<!-- Part 5: Show which box you're in -->
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid midnightblue;
+  outline-offset: 2px;
+}
+
+input:user-invalid {
+  border: 2px solid red;
 }
