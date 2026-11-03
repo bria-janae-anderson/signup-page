@@ -13,6 +13,7 @@ function sayHi () {
 
 
 // Call the function
+
 sayHi();
 
 function sayBye () {
@@ -21,3 +22,14 @@ function sayBye () {
 
 sayBye();
 sayBye();
+
+// Part 6: Make a button do something (Java Script)
+
+let nextButton = document.querySelector("#next-btn");
+let nextMeeting = document.querySelector("#next-meeting");
+
+function showNextMeeting() {
+    nextMeeting.textContent = "Our next meeting is Wednesday, November 8 at 6 PM.";
+}
+
+nextButton.addEventListener("click", showNextMeeting);
