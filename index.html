@@ -36,7 +36,7 @@
                 </div>
                 <div class="card">
                     <h3>Reduce Stress</h3>
-                    <p>Take a break from daily routines and enjoy friendly competition, laughter, and have fun outdoors with teammates.</p>
+                    <p>Take a break from daily routines and enjoy friendly competition, laughter, and outdoor fun with teammates.</p>
                 </div>
             </div>
         </section>
@@ -61,7 +61,12 @@
 
               <label for="email">Your Email: </label>
               <input type="email" name="email" id="email" placeholder="you@example.com" required>
-              
+
+              <!-- Add a password field -->
+              <label for="password">Create a password for the members' page</label>
+              <input type="password" id="password" name="password" required>
+
+              <!-- Game days request field -->
               <label for="game days">Which games days work best for you?</label>
               <select id="game days" name="game days">
                 <option value="">Choose Two Saturdays</option>
@@ -70,9 +75,11 @@
                 <option value="third">Third and Fourth Saturday</option>
               </select>
 
+              <!-- FYI Field -->
               <label for="message">Anything we should know?</label>
               <textarea id="message" name="message" rows="4"></textarea>
               
+              <!-- Button Field -->
               <button type="submit">Sign Up</button>
             </form>
         </section>
