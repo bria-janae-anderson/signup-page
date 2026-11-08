@@ -94,6 +94,8 @@ form {
   color: white;
   padding: 64px 24px;
   text-align: center;
+  margin-top: 32px;
+  border-radius: 16px;
 }
 
 .cta {
@@ -104,4 +106,13 @@ form {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Part 3: A bigger headline on big screens */
+
+@media (min-width: 700px) {
+  /* normal CSS rules go in here */
+  .hero h2 {
+    font-size: 3rem;
+  }
 }
