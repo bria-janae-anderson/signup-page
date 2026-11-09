@@ -33,3 +33,14 @@ function showNextMeeting() {
 }
 
 nextButton.addEventListener("click", showNextMeeting);
+
+
+//Part 4: Theme Button
+
+let themeButton = document.querySelector("#theme-btn");
+         
+         function toggleTheme() {
+            document.body.classList.toggle("dark");
+         }
+
+         themeButton.addEventListener("click", toggleTheme);
